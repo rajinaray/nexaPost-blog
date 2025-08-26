@@ -1,4 +1,26 @@
-config.json
+# Virtual environment
+env/
+venv/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+
+# Instance folder
+instance/
+
+# Environment variables
 .env
+
+# Config file containing sensitive info
+config.json
+
+# Database files
+*.db
+
+# IDE/editor files (optional)
+.vscode/
+.idea/
+.DS_Store
+
