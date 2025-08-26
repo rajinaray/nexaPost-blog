@@ -1,0 +1,19 @@
+/* Center the login form on the page */
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa; /* Optional: light background */
+    margin: 0;
+}
+
+/* Optional: style the form itself */
+.login-form {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 400px;
+}
