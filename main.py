@@ -3,11 +3,21 @@ from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
 from flask_mail import Mail
 import json
+from dotenv import load_dotenv 
 import os
 import math
 from datetime import datetime
 import pymysql
 pymysql.install_as_MySQLdb()
+
+#dlt
+load_dotenv()  # loads variables from .env
+
+local_server = os.getenv("LOCAL_SERVER")
+gmail_user = os.getenv("GMAIL_USER")
+gmail_password = os.getenv("GMAIL_PASSWORD")
+
+#dlt
 
   
 with open('config.json', 'r') as c:
